@@ -78,7 +78,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 		function videos(){
 			var options = {
 			  keys: ['video.title'],
-			  threshold: 0.6
+			  threshold: 0.3
 			}
 			var search = document.getElementById('masthead-search-term');
 			var search_term = search.value
